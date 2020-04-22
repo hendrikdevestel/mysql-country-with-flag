@@ -1,8 +1,8 @@
 --
--- Table structure for table `country`
+-- Table structure for table `countries`
 --
 
-CREATE TABLE IF NOT EXISTS `country` (
+CREATE TABLE IF NOT EXISTS `countries` (
   `countrycode` char(3) NOT NULL,
   `countryname` varchar(200) NOT NULL,
   `code` char(2) DEFAULT NULL,
@@ -10,10 +10,10 @@ CREATE TABLE IF NOT EXISTS `country` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `country`
+-- Dumping data for table `countries`
 --
 
-INSERT INTO `country` (`countrycode`, `countryname`, `code`)
+INSERT INTO `countries` (`countrycode`, `countryname`, `code`)
 VALUES
 ('AFG','Afghanistan','AF'),
 ('ALA','Åland','AX'),
